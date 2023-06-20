@@ -1,0 +1,55 @@
+/* CSS for all website pages */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(197, 170, 180);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: auto;
+}
+
+.img-credits {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+h1, h2, .content {
+    background-color: white;
+    color: black;
+    border: rgb(108, 75, 81);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer a:link, footer a:visited {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+  
+footer a:hover, footer a:active {
+    background-color: rgb(108, 75, 81);
+    color: white;
+}
