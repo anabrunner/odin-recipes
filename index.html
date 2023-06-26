@@ -4,11 +4,33 @@
     <meta charset="UTF-8">
     <title>Home | Odin Recipes</title>
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .recipe-list li{
+            list-style-type: none;
+            display: block;
+            border: rgb(108, 75, 81);
+            border-radius: 10px;
+            padding: 10px;
+            width: 300px;
+            margin: 10px auto;
+            background-color: white;
+            text-align: center;
+        }
+
+        .recipe-list a:link, .recipe-list a:visited {
+            text-decoration: none;
+            color: black;
+        }
+        
+        .recipe-list a:hover, .recipe-list a:active {
+            color: rgb(108, 75, 81);
+        }
+    </style>
 </head>
 
 <body>
     <h1>Odin Recipes</h1>
-    <div class="content">
+    <div class="recipe-list">
         <ul>
             <li><a href="recipes/porkolt.html">Porkolt</a></li>
             <li><a href="recipes/ribs.html">Slow Cooker BBQ Ribs</a></li>
